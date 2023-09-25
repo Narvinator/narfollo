@@ -53,3 +53,18 @@ nav ul {
     font-size: 32px;
     padding: 5px;
 }
+
+.work-gallery {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 0.6rem;
+    justify-content: center;
+    
+}
+
+img {
+    width: 20rem;
+    height: 10rem;
+    ;
+    
+ }
