@@ -40,6 +40,7 @@ h2 {
     }
 
 
+    
 
 
 section {
@@ -77,26 +78,29 @@ section {
 }
 
 #work-gallery {
-    border: 5px solid;
+    
     background-color: ;
     color: ;
     min-height: 150px;
-    max-height: 150px;
+    max-height: 450px;
+    max-width:100%;
     display: flex;
-    align-items: flex-end;
+    flex-wrap: wrap ;
     padding: 0 0 20px 0;
     margin:0.5em;
     text-decoration: none;
     background-blend-mode: 150%;
     transition: all 0.5s;
     font-size: 0.9rem;}
-    
+
 #work-img-eola {
     border: 5px solid;
     background-color: ;
     color: ;
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 300px ;
+    max-width: 300px ;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
@@ -111,8 +115,10 @@ section {
     border: 5px solid;
     background-color: ;
     color: ;
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 300px ;
+    max-width: 300px ;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
@@ -127,8 +133,10 @@ section {
     border: 5px solid;
     background-color: ;
     color: ;
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 300px ;
+    max-width: 300px ;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
@@ -143,8 +151,10 @@ section {
     border: 5px solid;
     background-color: ;
     color: ;
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 300px ;
+    max-width: 300px ;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
@@ -155,12 +165,14 @@ section {
     font-size: 0.9rem;
 }
 
-#work-img-covid {
+#work-img-horiseon {
     border: 5px solid;
     background-color: ;
     color: ;
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 600px ;
+    max-width: 600px ;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
