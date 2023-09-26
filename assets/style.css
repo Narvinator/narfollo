@@ -29,10 +29,21 @@ li {
 
 h1 {
     font-size: 42px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+h2 {
+        font-size: 42px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+
 section {
-    
+
 }
 
 .title-box {
@@ -65,21 +76,102 @@ section {
     padding: 5px;
 }
 
-.work-gallery {
+#work-gallery {
+    border: 5px solid;
+    background-color: ;
+    color: ;
+    min-height: 150px;
+    max-height: 150px;
     display: flex;
-    flex-wrap: wrap-reverse;
-    gap: 0.6rem;
-    justify-content: center;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin:0.5em;
+    text-decoration: none;
+    background-blend-mode: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;}
     
+#work-img-eola {
+    border: 5px solid;
+    background-color: ;
+    color: ;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin:0.5em;
+    text-decoration: none;
+    background-blend-mode: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+
+}
+#work-img-hvac {
+    border: 5px solid;
+    background-color: ;
+    color: ;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin:0.5em;
+    text-decoration: none;
+    background-blend-mode: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
 }
 
-img {
-    width: 20rem;
-    height: 10rem;
-    ;
-    
- }
+#work-img-navy {
+    border: 5px solid;
+    background-color: ;
+    color: ;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin:0.5em;
+    text-decoration: none;
+    background-blend-mode: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
 
+#work-img-kungfu {
+    border: 5px solid;
+    background-color: ;
+    color: ;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin:0.5em;
+    text-decoration: none;
+    background-blend-mode: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+
+#work-img-covid {
+    border: 5px solid;
+    background-color: ;
+    color: ;
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin:0.5em;
+    text-decoration: none;
+    background-blend-mode: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+
+}
  #contact{
     display: flex;
     justify-content: space-between; 
@@ -95,11 +187,8 @@ img {
 
 .page-bottom {
     display: flex;
-    position: unset;
-    justify-content:  ;
-    ;
+    align-items: stretch ;
     list-style: none;
-    margin-right: 60px;
     font-size: 20px;
     color: skyblue;
 }
