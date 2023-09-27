@@ -1,6 +1,7 @@
 :root {
     --sky: skyblue;
 }
+/* I tried several hexideciaml codes and i couldn't match it with the markup, then I decided the page is a litle personalized anyways */
 
 body {
     font-family: Arial, Helvetica, sans-serif ;
@@ -27,7 +28,7 @@ header { display: flex;
    
 }
 
-
+/* Had a bit of a hardtime deciding which flex display was optimal.  */
 
 nav ul {
     display: flex;
@@ -79,7 +80,7 @@ h2 {
    
     }
 
-
+/* This is where I attempted to make that separate colored box from the top left of the mock-up */
     
 .title-box {
     background-color: var(--sky);
@@ -88,6 +89,8 @@ h2 {
     justify-content: flex-end;
     padding-right:7px;
 }
+
+/* I wasn't quite sure if there was a way to make the images look clearer */
 
 @media screen and (min-width: 996px) {
     #work-gallery { 
@@ -199,6 +202,8 @@ h2 {
 
 }
 
+
+
 #work-gallery {
     
     background-color: ;
@@ -305,7 +310,7 @@ h2 {
     font-size: 0.9rem;
 }
 
-
+/* The contact information bar just had me lost  */
 
  #contact{
     display: flex;
