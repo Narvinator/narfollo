@@ -1,3 +1,14 @@
+:root {
+    --sky: skyblue;
+}
+
+a:hover {
+    color:var(--sky);
+  }
+
+a:visited {
+    color: lightblue; 
+}
 
 header { display: flex;
     justify-content: space-between;
@@ -5,9 +16,9 @@ header { display: flex;
     padding: 1%;
     height: 50px;
     width: 100%;
-    background-color: black;
+    background-color: rgb(65, 61, 61);
     z-index: 10;
-    color: black;
+    color: rgb(65, 61, 61);
    
 }
 
@@ -19,19 +30,34 @@ nav ul {
     min-width: 300px;
     list-style: none;
     margin-right: 60px;
-    font-size: 20px;
-    color: skyblue;
+    font-size: 22px;
+    color:var(--sky);
 }   
 
 li {
     margin-right:10px;
 }
 
-h1 {
-    font-size: 42px;
-    display: flex;
-    flex-wrap: wrap;
+.stripes {
+    width:100%;
+    height: 150px;
 }
+
+.stripes-text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color:var(--sky);
+    font-size: 32px;
+    padding: 5px;
+}
+
+#subtitle {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
 
 h2 {
         font-size: 42px;
@@ -41,41 +67,14 @@ h2 {
 
 
     
-
-
-section {
-
-}
-
 .title-box {
-    background-color: skyblue;
+    background-color: var(--sky);
     width: 25%;
     display: flex;
     justify-content: flex-end;
     padding-right:7px;
 }
 
-
-
-.stripes {
-    width:100%;
-    height: 150px;
-}
-
-#subtitle {
-    position: relative;
-    text-align: center;
-    color: black;
-}
-
-.stripes-text {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color:skyblue;
-    font-size: 32px;
-    padding: 5px;
-}
 
 #work-gallery {
     
@@ -92,6 +91,24 @@ section {
     background-blend-mode: 150%;
     transition: all 0.5s;
     font-size: 0.9rem;}
+
+    #work-img-horiseon {
+        border: 5px solid;
+        background-color: ;
+        color: ;
+        min-height: 100px;
+        max-height: 100px;
+        min-width: 600px ;
+        max-width: 600px ;
+        display: flex;
+        align-items: flex-end;
+        padding: 0 0 20px 0;
+        margin:0.5em;
+        text-decoration: none;
+        background-blend-mode: 150%;
+        transition: all 0.5s;
+        font-size: 0.9rem;
+    }
 
 #work-img-eola {
     border: 5px solid;
@@ -165,23 +182,6 @@ section {
     font-size: 0.9rem;
 }
 
-#work-img-horiseon {
-    border: 5px solid;
-    background-color: ;
-    color: ;
-    min-height: 100px;
-    max-height: 100px;
-    min-width: 600px ;
-    max-width: 600px ;
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 20px 0;
-    margin:0.5em;
-    text-decoration: none;
-    background-blend-mode: 150%;
-    transition: all 0.5s;
-    font-size: 0.9rem;
-}
 
 }
  #contact{
@@ -202,5 +202,5 @@ section {
     align-items: stretch ;
     list-style: none;
     font-size: 20px;
-    color: skyblue;
+    color: var(--sky);
 }
