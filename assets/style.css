@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: monospace ;
+    font-family: Arial, Helvetica, sans-serif ;
     color: rgb(55, 92, 173);
 }
 
@@ -41,6 +41,7 @@ nav ul {
 
 li {
     margin-right:10px;
+    text-decoration: underline;
 }
 
 .stripes {
@@ -88,13 +89,30 @@ h2 {
     padding-right:7px;
 }
 
+@media screen and (min-width: 996px) {
+    #work-gallery { 
+        width: 100%;}
+
+    }
+
+    @media screen and (max-width: 768px) {
+        #work-gallery { 
+            width: 100%;}
+    
+        }
+
+        @media screen and (max-width: 576px) {
+            #work-gallery { 
+                width: 100%;}
+        
+            }
 
 #work-gallery {
     
     background-color: ;
     color: ;
-    min-height: 150px;
-    max-height: 450px;
+    min-height: 200px;
+    max-height: 700px;
     max-width:100%;
     display: flex;
     flex-wrap: wrap ;
@@ -111,8 +129,8 @@ h2 {
         color: ;
         min-height: 100px;
         max-height: 100px;
-        min-width: 600px ;
-        max-width: 600px ;
+        min-width: 1200px ;
+        max-width: 1200px ;
         display: flex;
         align-items: flex-end;
         padding: 0 0 20px 0;
@@ -129,8 +147,8 @@ h2 {
     color: ;
     min-height: 100px;
     max-height: 100px;
-    min-width: 300px ;
-    max-width: 300px ;
+    min-width: 600px ;
+    max-width: 600px ;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
@@ -147,8 +165,8 @@ h2 {
     color: ;
     min-height: 100px;
     max-height: 100px;
-    min-width: 300px ;
-    max-width: 300px ;
+    min-width: 600px ;
+    max-width: 600px ;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
@@ -165,8 +183,8 @@ h2 {
     color: ;
     min-height: 100px;
     max-height: 100px;
-    min-width: 300px ;
-    max-width: 300px ;
+    min-width: 600px ;
+    max-width: 600px ;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
@@ -183,8 +201,8 @@ h2 {
     color: ;
     min-height: 100px;
     max-height: 100px;
-    min-width: 300px ;
-    max-width: 300px ;
+    min-width: 600px ;
+    max-width: 600px ;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
